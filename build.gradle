@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
+}
+
+test {
+    useTestNG()
+}
+
+task reg(type: Test) {
+    useTestNG {
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        def suite = System.getProperty('suite', '')
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite.equals('testSiute')) {
+            suites 'src/test/resources/testSiute.xml'
+        } else {
+            suites 'src/test/resources/testNG.xml'
+        }
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser', "${browser}";
+        }
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
