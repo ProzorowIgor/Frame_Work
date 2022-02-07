@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccfa7e3f-18f0-4656-b142-72dc04804c2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T120659.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T120832.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T121638.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T123303.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T123311.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T124429.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T124553.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T124948.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T125305.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T125459.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T125621.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T130801.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T131147.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T131447.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T131731.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T132211.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T132643.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T133005.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T133258.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220207T133358.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/UserHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTestTrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applications/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applications/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applications/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applications/MyDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applications/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applications/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applications/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applications/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
