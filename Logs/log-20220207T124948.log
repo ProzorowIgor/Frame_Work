@@ -1,0 +1,15 @@
+12:49:53  INFO  TestBase - Start methodtestLogin
+12:49:53  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [aria-label='Back to home']
+12:50:03  INFO  applications.MyListener - The element -->By.cssSelector: [aria-label='Back to home']wasn't found
+12:50:03  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [href='/login']
+12:50:03  INFO  applications.MyListener - The element -->By.cssSelector: [href='/login']was found
+12:50:03  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: #user
+12:50:04  INFO  applications.MyListener - The element -->By.cssSelector: #userwas found
+12:50:07  INFO  applications.MyListener - Start finding element by ------>By.id: login
+12:50:07  INFO  applications.MyListener - The element -->By.id: loginwas found
+12:50:09  INFO  applications.MyListener - Start finding element by ------>By.name: password
+12:50:09  INFO  applications.MyListener - The element -->By.name: passwordwas found
+12:50:09  INFO  applications.MyListener - Start finding element by ------>By.id: login-submit
+12:50:09  INFO  applications.MyListener - The element -->By.id: login-submitwas found
+12:50:24  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [aria-label='Back to home']
+12:50:34  INFO  applications.MyListener - The element -->By.cssSelector: [aria-label='Back to home']wasn't found

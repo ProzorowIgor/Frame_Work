@@ -17,8 +17,9 @@ public class ApplicationManager {
     String browser;
     Properties properties;
     Helper helper;
+    UserHelper user;
 
-     public ApplicationManager(String browser) {
+    public ApplicationManager(String browser) {
         this.browser = browser;
         properties = new Properties();
     }
@@ -35,11 +36,12 @@ public class ApplicationManager {
         }
         wd.register(new MyListener());
 
-        //wd.navigate().to("https://ilcarro.xyz/search");
-        wd.navigate().to(properties.getProperty("web.Base"));
+        wd.navigate().to("https://trello.com/");
+       // wd.navigate().to(properties.getProperty("web.Base"));
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         helper = new Helper(wd);
+        user = new UserHelper(wd);
     }
 
     public void stop() {
@@ -57,5 +59,9 @@ public class ApplicationManager {
 
     public Helper getHelper() {
         return helper;
+    }
+
+    public UserHelper getUser(){
+        return user;
     }
 }

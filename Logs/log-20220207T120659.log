@@ -1,0 +1,10 @@
+12:07:06  INFO  TestBase - Start methodtestLogin
+12:07:06  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [aria-label='Back to home']
+12:07:16  INFO  applications.MyListener - The element -->By.cssSelector: [aria-label='Back to home']wasn't found
+12:07:16  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [href='/login']
+12:07:19  INFO  applications.MyListener - We heave throwable -->Cannot locate an element using css selector=[href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QT-IL-LT0253', ip: '10.100.102.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: EventFiringWebDriver
+12:07:19  INFO  TestBase - End of testtestLogin

@@ -2,6 +2,8 @@ package applications;
 
 import com.google.common.io.Files;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,7 +31,7 @@ public class HelperBase {
     }
 
     public boolean isElementPresent(By locator) {
-
+//new WebDriverWait(wd,10).until(ExpectedConditions.elementToBeClickable(locator));
         return wd.findElements(locator).size() > 0;
     }
 
@@ -50,5 +52,31 @@ public class HelperBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean isHomeButtonOnHeader() {
+        return isElementPresent(By.cssSelector("[data-test-id='header-home-button']"));
+    }
+
+    public boolean isTrelloButtonOnHeader() {
+      /*  try{
+            return isElementPresent(By.cssSelector("[aria-label='Back to home']"));
+        } catch (Exception ex){
+            return false;
+        }*/
+       return isElementPresent(By.cssSelector("a[aria-label='Back to home']"));
+    }
+
+    public void retunToHomePage() {
+        if (isTrelloButtonOnHeader()) {
+            click(By.cssSelector("[aria-label='Back to home']"));
+        } else
+            click(By.cssSelector("[data-test-id='header-home-button']"));
+    }
+
+    public void waitForElementAndClick(int timeOut, By locator) {
+        new WebDriverWait(wd, timeOut/*Duration.ofSeconds(timeOut)*/)
+                .until(ExpectedConditions.elementToBeClickable(locator))
+                .click();
     }
 }

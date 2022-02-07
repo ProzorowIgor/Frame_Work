@@ -30,7 +30,12 @@ public class MyListener extends AbstractWebDriverEventListener {
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
         super.afterFindBy(by, element, driver);
-        loger.info("The element -->" +by + "was found");
+        if(element!=null && element.isDisplayed()) {
+            loger.info("The element -->" + by + "was found");
+        }
+        else {
+            loger.info("The element -->" + by + "wasn't found");
+        }
     }
 
     @Override
