@@ -1,0 +1,3 @@
+16:52:33  INFO  TestBase - Start method  testLogin
+16:52:33  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: a[aria-label='Back to home']
+16:52:44  INFO  applications.MyListener - The element -->By.cssSelector: a[aria-label='Back to home']wasn't found

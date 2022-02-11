@@ -1,6 +1,8 @@
 import applications.MyDataProvider;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.qameta.allure.Description;
-import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -8,20 +10,31 @@ import org.testng.annotations.Test;
 
 public class LoginTestTrello extends TestBase {
 
-    @BeforeMethod
+  /*  ExtentReports extent = new ExtentReports();
+    ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");*/
+
+    @BeforeMethod @Description("Configure something")
     public void preconditions() {
         if (app.getUser().isTrelloButtonOnHeader()) {
             app.getUser().logout();
+          /*  extent.attachReporter(spark);
+            extent.createTest("Before method")
+                    .log(Status.PASS, "Logout had done");
+            extent.flush();*/
         }
     }
 
 
     @Test(dataProvider = "dataLoginCVS", dataProviderClass = MyDataProvider.class)
-
+    @Description("kdslfslfksjflsf")
     public void testLogin(String email, String password) throws InterruptedException {
         app.getUser().initLogin();
         app.getUser().fillLoginForm(email, password);
         app.getUser().submitLogin();
+     /*   extent.attachReporter(spark);
+        extent.createTest("Login test")
+                .log(Status.PASS, "Possitive");
+        extent.flush();*/
     /*   Thread.sleep(15000);
         Assert.assertTrue(app.getUser().isTrelloButtonOnHeader(), "Element 'Logo' not found");*/
 
@@ -35,5 +48,9 @@ public class LoginTestTrello extends TestBase {
             System.out.println("Element 'Logo' not found");
             System.out.println(assertionError.getMessage());
         }
+       /* extent.attachReporter(spark);
+        extent.createTest("After method")
+                .log(Status.PASS, "Assertion is pass");
+        extent.flush();*/
     }
 }

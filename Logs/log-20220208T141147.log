@@ -1,0 +1,22 @@
+14:11:53  INFO  TestBase - Start methodtestLogin
+14:11:53  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: a[aria-label='Back to home']
+14:12:03  INFO  applications.MyListener - The element -->By.cssSelector: a[aria-label='Back to home']wasn't found
+14:12:03  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: [href='/login']
+14:12:03  INFO  applications.MyListener - The element -->By.cssSelector: [href='/login']was found
+14:12:03  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: #user
+14:12:05  INFO  applications.MyListener - The element -->By.cssSelector: #userwas found
+14:12:07  INFO  applications.MyListener - Start finding element by ------>By.id: login
+14:12:07  INFO  applications.MyListener - The element -->By.id: loginwas found
+14:12:07  INFO  applications.MyListener - Start finding element by ------>By.name: password
+14:12:07  INFO  applications.MyListener - The element -->By.name: passwordwas found
+14:12:10  INFO  applications.MyListener - We heave throwable -->stale element reference: element is not attached to the page document
+  (Session info: chrome=98.0.4758.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QT-IL-LT0253', ip: '10.100.102.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: C:\Users\IGOR~1.PRO\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:50195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c95de9af8578cd22a423ab14cc00e91
+14:12:25  INFO  applications.MyListener - Start finding element by ------>By.cssSelector: a[aria-label='Back to home']
+14:12:35  INFO  applications.MyListener - The element -->By.cssSelector: a[aria-label='Back to home']wasn't found
+14:12:35  INFO  TestBase - End of testtestLogin
