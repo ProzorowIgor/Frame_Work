@@ -44,6 +44,8 @@ dependencies {
     //compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.17.2'
     //implementation 'io.rest-assured:rest-assured-all:4.4.0'
 
+    implementation group: 'com.applitools', name: 'eyes-selenium-java3', version: '3.210.6'
+
 }
 //apply plugin: "io.qameta.allure"
 

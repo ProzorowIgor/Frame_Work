@@ -18,6 +18,8 @@ public class ApplicationManager {
     Properties properties;
     Helper helper;
     UserHelper user;
+    BoardHelper board;
+
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -37,11 +39,12 @@ public class ApplicationManager {
         wd.register(new MyListener());
 
         wd.navigate().to("https://trello.com/");
-       // wd.navigate().to(properties.getProperty("web.Base"));
+        // wd.navigate().to(properties.getProperty("web.Base"));
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         helper = new Helper(wd);
         user = new UserHelper(wd);
+        board = new BoardHelper(wd);
     }
 
     public void stop() {
@@ -49,11 +52,11 @@ public class ApplicationManager {
         wd.quit();
     }
 
-    public String setEmail() {
+    public String getEmail() {
         return properties.getProperty("web.email");
     }
 
-    public String setPassword() {
+    public String getPassword() {
         return properties.getProperty("web.password");
     }
 
@@ -61,7 +64,11 @@ public class ApplicationManager {
         return helper;
     }
 
-    public UserHelper getUser(){
+    public UserHelper getUser() {
         return user;
+    }
+
+    public BoardHelper board() {
+        return board;
     }
 }

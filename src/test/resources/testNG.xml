@@ -4,7 +4,7 @@
 
     <test name="reg" >
         <classes>
-           <class name="LoginTestTrello" />
+           <class name="LoginTestTrelloDataProvider" />
 
         </classes>
     </test>

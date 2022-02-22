@@ -1,14 +1,11 @@
 import applications.MyDataProvider;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTestTrello extends TestBase {
+public class LoginTestTrelloDataProvider extends TestBase {
 
   /*  ExtentReports extent = new ExtentReports();
     ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");*/
