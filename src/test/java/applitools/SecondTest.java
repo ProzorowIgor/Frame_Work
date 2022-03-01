@@ -17,9 +17,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Runs Applitools test for the demo app https://demo.applitools.com
- */
+
+ //Runs Applitools test for the demo app https://demo.applitools.com
+
+
 
 public class SecondTest {
 
@@ -43,9 +44,10 @@ public class SecondTest {
         eyes = new Eyes(runner);
 
         // Raise an error if no API Key has been found.
-        if(isNullOrEmpty(System.getenv("APPLITOOLS_API_KEY"))) {
+ if(isNullOrEmpty(System.getenv("APPLITOOLS_API_KEY"))) {
             throw new RuntimeException("No API Key found; Please set environment variable 'APPLITOOLS_API_KEY'.");
         }
+
 
         // Set your personal Applitols API Key from your environment variables.
         eyes.setApiKey(System.getenv("ylfTBcOE0E107fPVsf3m9101OcEgPoJWZyrx2CNMRtqXmPw110"));

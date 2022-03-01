@@ -1,6 +1,5 @@
+package apiTests;
 
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import models.Register;
 import models.ResponseRegister;
 import models.SingleUser;

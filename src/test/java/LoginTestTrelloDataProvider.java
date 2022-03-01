@@ -23,7 +23,7 @@ public class LoginTestTrelloDataProvider extends TestBase {
 
 
     @Test(dataProvider = "dataLoginCVS", dataProviderClass = MyDataProvider.class)
-    @Description("kdslfslfksjflsf")
+    @Description("for allure")
     public void testLogin(String email, String password) throws InterruptedException {
         app.getUser().initLogin();
         app.getUser().fillLoginForm(email, password);

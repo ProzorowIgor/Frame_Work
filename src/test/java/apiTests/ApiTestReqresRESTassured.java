@@ -1,3 +1,5 @@
+package apiTests;
+
 import io.restassured.http.ContentType;
 import models.DataUser;
 

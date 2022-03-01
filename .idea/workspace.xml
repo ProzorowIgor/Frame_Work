@@ -5,31 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccfa7e3f-18f0-4656-b142-72dc04804c2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T082044.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T090100.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T090818.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T090836.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T091036.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T091126.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T091407.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T113754.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T113917.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T114028.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20220222T114647.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applications/BoardHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateNewBoardDataFromProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/applitools/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/applitools/SecondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/parallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applications/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applications/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTestTrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTestReqresRESTassured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/ApiTestReqresRESTassured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateNewBoardDataFromProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateNewBoardDataFromProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/Specifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/TestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/applitools/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applitools/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/applitools/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applitools/SecondTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spark.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +87,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qa29Presentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -113,25 +97,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\igor.prozorow\OneDrive - Qualitest Group\Documents\Projects\Frame_Work\src\test\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppTest">
-    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="applitools.AppTest" />
-      <module name="Frame_Work.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="applitools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CredentialsFromProperties" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CreateNewBoardDataFromProperties">
+    <configuration name="ApiTestReqresRESTassured.getAllUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CredentialsFromProperties&quot;" />
+            <option value="&quot;ApiTestReqresRESTassured.getAllUsers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +128,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CredentialsFromProperties.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateNewBoardDataFromProperties" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CredentialsFromProperties.testLogin&quot;" />
+            <option value="&quot;CreateNewBoardDataFromProperties&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestLoginWithHidenCredentials" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestTrelloDataProvider" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TestLoginWithHidenCredentials&quot;" />
+            <option value="&quot;LoginTestTrelloDataProvider&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="credentialsFromProperties" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAPI (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +187,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;credentialsFromProperties&quot;" />
+            <option value="&quot;apiTests.TestAPI&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAPI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestAPI&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppTest" />
-        <item itemvalue="Gradle.CredentialsFromProperties" />
-        <item itemvalue="Gradle.CredentialsFromProperties.testLogin" />
-        <item itemvalue="Gradle.credentialsFromProperties" />
-        <item itemvalue="Gradle.TestLoginWithHidenCredentials" />
+        <item itemvalue="Gradle.CreateNewBoardDataFromProperties" />
+        <item itemvalue="Gradle.LoginTestTrelloDataProvider" />
+        <item itemvalue="Gradle.TestAPI (1)" />
+        <item itemvalue="Gradle.TestAPI" />
+        <item itemvalue="Gradle.ApiTestReqresRESTassured.getAllUsers" />
       </list>
     </recent_temporary>
   </component>

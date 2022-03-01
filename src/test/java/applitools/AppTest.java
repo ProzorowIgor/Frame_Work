@@ -56,6 +56,7 @@ public class AppTest {
         config.addBrowser(800, 600, BrowserType.CHROME);
         config.addBrowser(700, 500, BrowserType.FIREFOX);
         config.addBrowser(1600, 1200, BrowserType.IE_11);
+        //System.setProperty("webdriver.edge.driver","C:\\TOOLS\\msedgedriver.exe");
         config.addBrowser(1024, 768, BrowserType.EDGE_CHROMIUM);
         config.addBrowser(800, 600, BrowserType.SAFARI);
 
