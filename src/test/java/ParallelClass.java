@@ -41,8 +41,8 @@ public class ParallelClass {
         System.out.println("2===========" +Thread.currentThread().getId());
     }
 
-    @AfterMethod
+   /* @AfterMethod
     public void postCondition(){
         wd.quit();
-    }
+    }*/
 }

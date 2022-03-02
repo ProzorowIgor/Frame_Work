@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ccfa7e3f-18f0-4656-b142-72dc04804c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTestReqresRESTassured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/ApiTestReqresRESTassured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateNewBoardDataFromProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateNewBoardDataFromProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/Specifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTests/TestAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/applitools/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applitools/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/applitools/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applitools/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spark.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
