@@ -48,7 +48,7 @@ dependencies {
     implementation group: 'com.applitools', name: 'eyes-selenium-java3', version: '3.210.6'
 
 }
-//apply plugin: "io.qameta.allure"
+
 
 
 test {

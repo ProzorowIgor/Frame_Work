@@ -46,14 +46,6 @@ public class ParallelClass {
         wd.quit();
     }*/
 
-    @AfterMethod
-    public void post(){
-
-
-        
-    }
-
-
 
 
 }

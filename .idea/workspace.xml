@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ccfa7e3f-18f0-4656-b142-72dc04804c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTestTrelloDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ParallelClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParallelClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spark.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SecondTest">
+  <component name="RunManager" selected="Gradle.LoginTestTrelloDataProvider (1)">
     <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="applitools.AppTest" />
       <module name="Frame_Work.test" />
@@ -133,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTestTrelloDataProvider" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestTrelloDataProvider (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,9 +208,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTestTrelloDataProvider (1)" />
         <item itemvalue="Gradle.SecondTest" />
         <item itemvalue="Application.AppTest" />
-        <item itemvalue="Gradle.LoginTestTrelloDataProvider" />
         <item itemvalue="Gradle.CreateNewBoardDataFromProperties" />
         <item itemvalue="Gradle.TestAPI (1)" />
       </list>

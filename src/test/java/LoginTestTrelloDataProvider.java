@@ -38,9 +38,10 @@ public class LoginTestTrelloDataProvider extends TestBase {
     }
     @AfterMethod
     public void postConditions() throws InterruptedException {
-        Thread.sleep(15000);
+        Thread.sleep(3000);
         try {
            Assert.assertTrue(app.getUser().isTrelloButtonOnHeader());
+           app.getUser().logout();
         } catch (AssertionError assertionError) {
             System.out.println("Element 'Logo' not found");
             System.out.println(assertionError.getMessage());
